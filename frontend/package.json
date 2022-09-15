@@ -18,6 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:5050",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -33,7 +34,7 @@
   "devDependencies": {
     "eslint": "^8.23.1",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-functional": "^4.3.1",
+    "eslint-plugin-functional": "^4.2.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.8",
