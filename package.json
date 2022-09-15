@@ -1,0 +1,27 @@
+{
+  "name": "react-chat",
+  "version": "1.0.0",
+  "description": "simple slack",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start-server -s ./frontend/build",
+    "postinstall": "cd frontend && npm ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacksonrr3/frontend-project-12.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "e_zaborshchikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacksonrr3/frontend-project-12/issues"
+  },
+  "homepage": "https://github.com/jacksonrr3/frontend-project-12#readme",
+  "dependencies": {
+    "@hexlet/chat-server": "^1.1.6"
+  }
+}
